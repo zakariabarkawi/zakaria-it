@@ -244,6 +244,12 @@ footer {
 
 
     
-    <script src="script.js"></script>
+    <script>
+      const yearSpan = document.getElementById("year");
+
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+}
+    </script>
   </body>
 </html>
